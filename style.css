@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Mulish&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: black;
+  padding: 18px 46px;
+  font-weight: 700;
+  color: white;
+  border-radius: 10px;
+}
+
+.row {
+  padding-top: 30px;
+  width: 1080px;
+  margin: auto;
+}
+
+header {
+  height: 95vh;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .nav-menu a {
+  padding-left: 50px;
+  text-decoration: none;
+  color: #696871;
+}
+
+header nav a:first-child {
+  padding: 0px;
+}
+
+header nav .nav-menu .active {
+  font-weight: 700;
+  color: #19191B;
+}
+
+header nav .btn {
+  background-color: #FF7143;
+}
+
+header main {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header main .left-section {
+  width: 40%;
+}
+
+header main .left-section h1 {
+  font-weight: bold;
+  font-size: 80px;
+  color: #19191B;
+  line-height: 77px;
+  letter-spacing: -2.5px;
+}
+
+header main .left-section p {
+  color: #696871;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: 'Mulish', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.63px;
+  text-align: left;
+}
+
+header main .left-section .btn {
+  background-color: #5454D4;
+}
+
+header main .left-section .fa-arrow-down {
+  font-size: 18px;
+  margin-left: 40px;
+  padding: 18px;
+  border: 2px solid #E7E7E7;
+  border-radius: 100%;
+}
+
+header main .right-section img {
+  margin-right: -50px;
+}
+
+.companies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 40px;
+  padding-top: 80px;
+}
+
+#feature-section {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#feature-section .left, #feature-section .right {
+  width: 50%;
+}
+
+#feature-section h2 {
+  font-family: "DM Sans", sans-serif;
+  color: #19191B;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: -1.5px;
+  text-align: left;
+}
+
+#feature-section p {
+  font-family: "Mulish", sans-serif;
+  color: #696871;
+  padding: 30px 0px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.6px;
+  text-align: left;
+}
+
+#feature-section a {
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  color: #5454D4;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.53px;
+  text-align: left;
+}
+
+.one .right, .two .left {
+  padding: 3%;
+}
+
+.two .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.goals-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 72px 0px;
+}
+
+.goals-section .goals {
+  padding: 2%;
+  width: 33.33%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.goals-section .goals h3 {
+  padding-bottom: 16px;
+  font-family: "DM Sans", sans-serif;
+  color: #19191B;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.75px;
+}
+
+.goals-section .goals p {
+  font-family: "Mulish", sans-serif;
+  color: #696871;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  text-align: center;
+}
+
+.plan-section .sub-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.plan-section .sub-header h2 {
+  width: 45%;
+  font-family: "DM Sans", sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1.8px;
+  text-align: left;
+}
+
+.plan-section .sub-header .toggle {
+  background-color: #F7F7FB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.plan-section .sub-header .toggle a {
+  font-family: "DM Sans", sans-serif;
+  color: #19191B;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.5px;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 36px;
+}
+
+.plan-section .sub-header .toggle .year {
+  border-radius: 10px 0px 0px 10px;
+  color: white;
+  background-color: #5454D4;
+}
+
+.plan-section .cards {
+  padding: 100px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.plan-section .cards .card {
+  width: 330px;
+  background-color: #F8F8F8;
+  margin: 18px;
+  padding: 24px;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+.plan-section .cards .card h2 {
+  font-family: "DM Sans", sans-serif;
+  color: #19191B;
+  padding: 20px 0px;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.plan-section .cards .card h2 span {
+  font-family: "DM Sans", sans-serif;
+  color: #19191B;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.plan-section .cards .card p {
+  font-family: "Mulish", sans-serif;
+  color: #696871;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: -0.5px;
+  text-align: center;
+  padding-bottom: 24px;
+}
+
+.plan-section .cards .card p:first-child {
+  padding-bottom: 0px;
+}
+
+.plan-section .cards .card .btn {
+  background-color: white;
+  width: 95%;
+  padding: 16px 0px;
+  font-family: "DM Sans", sans-serif;
+  color: #5454D4;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.5px;
+  text-align: center;
+}
+
+.plan-section .cards .card:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+  -webkit-transition: .3s;
+  transition: .3s;
+  background-color: #FF7143;
+}
+
+.plan-section .cards .card:hover p, .plan-section .cards .card:hover h2 span, .plan-section .cards .card:hover h2 {
+  color: white;
+}
+
+.plan-section .cards .card:hover .btn {
+  color: white;
+  background-color: #9F3919;
+}
+/*# sourceMappingURL=style.css.map */
